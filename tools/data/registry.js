@@ -13,7 +13,7 @@ window.CoachMatchRegistry = [
     title: 'Coaching Style Matcher',
     category: 'Find your fit',
     description: 'Discover which kinds of clients are likely to work best with your coaching approach.',
-    status: 'planned',
+    status: 'live',
     duration: '3 min'
   },
   {
@@ -21,7 +21,7 @@ window.CoachMatchRegistry = [
     title: 'Pricing Confidence Check',
     category: 'Talk about fees',
     description: 'Spot the habit that makes your coaching harder to sell than it needs to be.',
-    status: 'planned',
+    status: 'live',
     duration: '2 min'
   },
   {
@@ -29,7 +29,7 @@ window.CoachMatchRegistry = [
     title: 'Client Relationship Health Check',
     category: 'Grow with clients',
     description: 'See what you might be missing in retention, feedback, trust, and long-term relationships.',
-    status: 'planned',
+    status: 'live',
     duration: '3 min'
   }
 ];

@@ -136,3 +136,16 @@ html.embed-mode .tool-card {margin:12px}
   html.embed-mode .tool-card {margin:8px}
 }
 @media (prefers-reduced-motion:reduce) {*,*::before,*::after {scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Additional shared score and coaching-style result presentations. */
+.snapshot-four {grid-template-columns: repeat(2,minmax(0,1fr))}
+.style-axes {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:20px 0 26px}
+.style-axes .score-box {padding:17px}
+.style-axes strong {display:block;margin-top:8px;font-size:15px;letter-spacing:-.15px}
+.match-panel {border:1px solid #d9e6dc;border-radius:16px;padding:22px;background:#f8faf7}
+.match-panel h3 {font-size:15px;letter-spacing:-.2px;margin:15px 0 4px}
+.match-panel p {margin:7px 0 10px;color:var(--ink-muted);font-size:15px;line-height:1.62}
+@media (max-width:480px) {
+  .style-axes {grid-template-columns:1fr}
+  .snapshot-four .score-label {font-size:10px;letter-spacing:0}
+}
